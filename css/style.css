@@ -10,15 +10,11 @@ body{
     margin-bottom: 21px;
 }
 
-nav{
+nav .content{
     background-color: #562EFF;
     width: 100%;
     height: 94px;
     position: sticky;
-}
-
-nav .content{
-    width: 870px;
     margin: auto;
 }
 
@@ -35,6 +31,7 @@ nav .logo img{
 
 nav .logo h2{
     color: #FFFFFF;
+    margin-left: 20px;
 }
 
 nav .menu{
@@ -226,9 +223,7 @@ hr{
     
 }
 
-@media only screen and (max-width: 880px){
 
-}
 
 @media only screen and (max-width: 860px){
     .blogs{

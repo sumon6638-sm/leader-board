@@ -226,8 +226,6 @@ hr{
     
 }
 
-
-
 @media only screen and (max-width: 860px){
     .blogs{
         grid-template-columns: repeat(1, 1fr);
@@ -312,7 +310,10 @@ hr{
     }
 }
 
-@media only screen and (max-width: 515px) {
+@media only screen and (max-width: 521px) {
+    nav .menu ul li{
+        margin-left: 10px;
+    }
     .container{
         width: 80%;
     }
@@ -344,5 +345,24 @@ hr{
         display: block;
         margin: auto;
         width: 252.42px;
+    }
+}
+
+@media only screen and (max-width: 417px) {
+    nav .logo{
+        margin-top: 12px;
+    }
+    nav .logo img{
+    width: 35px;
+    height: 40px;
+    }
+    nav .logo h2{
+        color: #FFFFFF;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    nav .menu ul li{
+        margin-left: 5px;
     }
 }

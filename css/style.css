@@ -16,6 +16,7 @@ nav .content{
     height: 94px;
     position: sticky;
     margin: auto;
+    padding-left: 15px;
 }
 
 nav .logo{
@@ -36,11 +37,13 @@ nav .logo h2{
 
 nav .menu{
     float: right;
+    margin-right: 15px;
 }
 
 nav .menu ul{
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 nav .menu ul li{
